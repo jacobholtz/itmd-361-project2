@@ -2,14 +2,22 @@
 <html lang="en">
 <head>
   <title>Resume</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="css/normalize.css">
 </head>
 <body>
-  <ul>
-    <li><a href="index.html">Home</a></li>
-    <li><a href="resume.html">Resume</a></li>
-    <li><a href="hobbies.html">Hobbies</a></li>
-    <li><a href="pets.html">Pets</a></li>
-  </ul>
+  <header>
+    <nav id="main-navbar">
+      <div id="navbar-container">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="resume.html">Resume</a></li>
+          <li><a href="hobbies.html">Hobbies</a></li>
+          <li><a href="pets.html">Pets</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
   <section>
     <h1>Resume</h1>
     <h2>Jacob Holtz</h2>
@@ -33,7 +41,7 @@
     <p>Associate of Applied Science in Cybersecurity and Defense, Aug. 2019 - May 2021</p>
     <p>Focus on network configuration as well as computer law and defensive and offensive network techniques.</p>
   </section>
-  <section>
+  <section id="resume">
     <h3>Skills</h3>
     <ul>
       <li>Computer Networking</li>
@@ -47,8 +55,7 @@
       <li>Various scripting languages</li>
       <li>Computer forensics</li>
     </ul>
-  </section>
-  <section>
+
     <h3>Relevant Coursework</h3>
     <p><strong>Routing and Switching (CCNA)</strong></p>
     <ul>
@@ -73,12 +80,12 @@
       <li>Created domains and forests, DNS, DHCP, file sharing services, organizational units and containers,
         secure application authorization, EFS and data recovery agents.</li>
     </ul>
-  </section>
   <p><strong>Personal Projects</strong></p>
   <ul>
     <li>Orchestrated personal virtual machines to explore topics learned in class such as network intrusion tactics.</li>
     <li>Programming projects in C++, C, Java, JavaScript, and Python.</li>
     <li>MySQL & PHP projects, bug bounty programs, penetration testing techniques.</li>
   </ul>
+</section>
 </body>
 </html>
