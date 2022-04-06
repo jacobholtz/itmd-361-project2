@@ -110,7 +110,13 @@ h3 {
 	clear: right;
 }
 
-#text-right{
+#i_right{
+	float: right;
+	padding: 5%;
+	clear: right;
+}
+
+#t_right{
 	text-align: right;
 	padding-left: 10px;
 }
